@@ -6,7 +6,7 @@ export const reduxEnums = {
 export const colorsEnums = {
   GREEN: "#4caf50",
   YELLOW: "#ffeb3b",
-  ORANGE: "#ff5722",
+  ORANGE: "#ffa500",
   RED: "#f44336",
   GRAY: "#607d8b",
 };
