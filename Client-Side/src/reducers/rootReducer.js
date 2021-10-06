@@ -1,4 +1,4 @@
 import { combineReducers } from "redux";
-import compressReducer from "./compressReducer";
-const rootReducer = combineReducers({ compressReducer });
+import machinceReducer from "./machinceReducer";
+const rootReducer = combineReducers({ machinceReducer });
 export default rootReducer;
