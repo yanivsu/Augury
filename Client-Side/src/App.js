@@ -1,7 +1,5 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { useDispatch, useSelector } from "react-redux";
-
 import { Grid } from "@material-ui/core";
 
 import ButtonStatus from "./components/buttonStatusComponent";
@@ -14,14 +12,6 @@ const useStyles = makeStyles((theme) => ({
 }));
 function App() {
   const classes = useStyles();
-
-  // const compressDataSelector = useSelector((state) => state.compressReducer);
-  const dispatcher = useDispatch();
-
-  useEffect(() => {
-    // Fetch Data
-    // dispatcher(loadInitData());
-  }, []);
 
   return (
     <Grid container direction="column">
